@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+<linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ff1744"><animate attributeName="stop-color" values="#ff1744;#ff9100;#ffee00;#00e676;#00b0ff;#7c4dff;#f500d4;#ff1744" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="25%" stop-color="#ff9100"><animate attributeName="stop-color" values="#ff9100;#ffee00;#00e676;#00b0ff;#7c4dff;#f500d4;#ff1744;#ff9100" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="50%" stop-color="#00e676"><animate attributeName="stop-color" values="#00e676;#00b0ff;#7c4dff;#f500d4;#ff1744;#ff9100;#ffee00;#00e676" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="75%" stop-color="#00b0ff"><animate attributeName="stop-color" values="#00b0ff;#7c4dff;#f500d4;#ff1744;#ff9100;#ffee00;#00e676;#00b0ff" dur="8s" repeatCount="indefinite"/></stop>
+<stop offset="100%" stop-color="#f500d4"><animate attributeName="stop-color" values="#f500d4;#ff1744;#ff9100;#ffee00;#00e676;#00b0ff;#7c4dff;#f500d4" dur="8s" repeatCount="indefinite"/></stop>
+<animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/><animate attributeName="x2" values="100%;0%;100%" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="28" fill="#080b16"/>
+<g opacity=".2" stroke="#8ca4ff" fill="none"><path d="M0 65H1200M0 235H1200M90 0V300M1110 0V300"/><circle cx="600" cy="145" r="112"/><circle cx="600" cy="145" r="145"/></g>
+<text x="600" y="160" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="900" letter-spacing="2" fill="url(#rainbow)" filter="url(#glow)">MRJCreations</text>
+<text x="600" y="208" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="8" fill="#e8edff">DRIVEN BY DETAIL</text>
+<path d="M110 238H1090" stroke="url(#rainbow)" stroke-width="3"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></path>
+</svg>
